@@ -10,27 +10,24 @@ function calculateInsurance() {
 	if (country === "Austria") {
 		insurance = horsepower * 100 / age + 50;
 
-		result.innerHTML = name + ", your insurance costs " + insurance.toFixed(2) + "€"
+		result.innerHTML = name + ", your insurance costs " + insurance.toFixed(2) + "€" + " per quarter of the year!"
 
 	}
 
 	else if (country === "Hungary") {
 		insurance = horsepower * 120 / age + 100;
 
-		result.innerHTML = name + ", your insurance costs " + insurance.toFixed(2) + "€"
+		result.innerHTML = name + ", your insurance costs " + insurance.toFixed(2) + "€" + " per quarter of the year!"
 
 	}
 
 	else {
 		insurance = horsepower * 150 / (age+3) + 50;
 
-		result.innerHTML = name + ", your insurance costs " + insurance.toFixed(2) + "€"
+		result.innerHTML = name + ", your insurance costs " + insurance.toFixed(2) + "€" + " per quarter of the year!"
 
 	}
 
-
-
-	// console.log(typeof age)
 
 }
 

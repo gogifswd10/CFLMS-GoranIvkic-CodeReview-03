@@ -34,12 +34,12 @@
 	            <div class="BOX">
 	                <label for="name">Your name:</label>
 	                <br>
-	                <input type="text" name="name" id="NAME" class="INPUT">
+	                <input type="text" name="name" placeholder="Please enter your name"  id="NAME" class="INPUT">
 	            </div>
 	            <div class="BOX">
 	                <label for="age">Age:</label>
 	                <br>
-	                <input type="number" name="age" id="AGE" class="INPUT">
+	                <input type="number" name="age" placeholder="Please enter your age" id="AGE" class="INPUT">
 	            </div>
 	        </div> <!-- CLOSE BOXES 1 -->
 
@@ -47,7 +47,7 @@
 	            <div class="BOX">
 	                <label for="country">Country:</label>
 	                <br>
-	                <select name="country" id="COUNTRY" class="INPUT">
+	                <select name="country" placeholder="Please select your country" id="COUNTRY" class="INPUT">
 	                    <option value="Austria">Austria</option>
 	                    <option value="Hungary">Hungary</option>
 	                    <option value="Greece">Greece</option>
@@ -57,32 +57,33 @@
 	            <div class="BOX">
 	                <label for="horsepower">Horsepower of your car:</label>
 	                <br>
-	                <input type="number" name="horsepower" id="HORSEPOWER" class="INPUT">
+	                <input type="number" placeholder="Please enter the horsepower" name="horsepower" id="HORSEPOWER" class="INPUT">
 	            </div>
             </div> <!-- CLOSE BOXES 2-->
 
         	<div id="BUTTONdiv"><input type="button" value="Calculate" id="BUTTON"></div>
-        	<div id="CALCULATION">
-        		<div id="RESULT">
-        		</div>
+        		<div id="CALCULATION">
+        			<div id="RESULT"></div>
+        	</div> 							
         </div> <!-- CLOSE WRAPPER -->
 
-        	</div> <!-- GREY DIV GREY DIV  -->
+        	<!-- GREY DIV GREY DIV  -->
         	<div id="GREYDIV">
         		<div id="MIXDIV">
         			<div id="WHITEDIV"></div>
-        		</div>
-        		<p id="COVERAGE">Un-complicating car coverage<p>
-        		<p id="UNDERSTAND">Understanding your coverage options shouldn't be so hard.<br>
-        		We'll guide you through available coverage types,<br>
-        		starting with who and what is covered.</p>
-        	</div> <!-- CLOSE GREY DIV -->
-    	</div> <!-- CLOSE MAIN -->
+    			</div>
+    			<div id="WRAPTEXT">
+	        		<p id="COVERAGE">Un-complicating car coverage<p>
+	        		<p id="UNDERSTAND">Understanding your coverage options shouldn't be so hard.<br>
+	        		We'll guide you through available coverage types,<br>
+	        		starting with who and what is covered.</p>
+	        	</div>
+	    	</div> <!-- CLOSE GREY DIV -->
+		</div> <!-- CLOSE MAIN -->
 
 
-		<!-- INFO BOXES INFO BOXES -->
-		<div id="INFORMATION">
-	        <div class="BOXWRAPPER">	
+			<!-- INFO BOXES INFO BOXES -->
+			<div id="INFORMATION">
 	        	<div class="INFOBOX">
 		            <h4>What comes standard</h4>
 		            <p>The coverage you need</p>
@@ -94,8 +95,7 @@
 		            <h5>Benefits</h5>
 		            <h6>12-month rate guarantee | 24/7 customer<br> service | Lifetime Repair Guarantee</h6>
 		        </div> <!-- CLOSE INFO BOX 1 -->
-		     </div> <!-- CLOSE BOXWRAPPER 1 -->
-		    <div class="BOXWRAPPER">
+		    
 		        <div class="INFOBOX">
 		            <h4>Add-on protection & coverage</h4>
 		            <p>For more peace of mind</p>
@@ -107,10 +107,8 @@
 		            <h5>Earned Benefits</h5>
 		            <h6>Accident Forginess<sup>1</sup> | New Car <br>Replacement<sup>TM</sup></h6>
 		     	</div> <!-- CLOSE INFO BOX 2 -->
-		    </div> <!-- CLOSE BOXWRAPPER 2 -->   
-	    </div> <!-- CLOSE INFORMATION DIV -->
+	    	</div> <!-- CLOSE INFORMATION DIV -->
 	
-		
 		<!-- NAVBAR BOTTOM FOOTER NAVBAR BOTTOM FOOTER -->
 	<footer>
 			<nav id="NAVBOTTOM">
